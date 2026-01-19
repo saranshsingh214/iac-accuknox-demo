@@ -20,7 +20,7 @@ jobs:
           directory: ./
           output_file_path: ./results
           token: ${{ secrets.ACCUKNOX_TOKEN }}
-          endpoint: "app.demo.accuknox.com"
+          endpoint: "cspm.demo.accuknox.com"
           tenant_id: ${{ secrets.ACCUKNOX_TENANT_ID }}
           label: ${{ secrets.ACCUKNOX_LABEL }}
           quiet: "true"
